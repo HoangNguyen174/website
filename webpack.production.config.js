@@ -58,7 +58,7 @@ module.exports = {
       }
     }),
     new CopyWebpackPlugin([
-      { from: 'src/files/*.*' }
+      { from: 'src/images/*.*' }
     ])
   ]
 };

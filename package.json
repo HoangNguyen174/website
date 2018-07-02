@@ -4,9 +4,10 @@
   "description": "React Webpack Babel Starter Kit",
   "main": "''",
   "scripts": {
-    "build": "webpack --config webpack.production.config.js --progress --profile --colors",
-    "serve:build": "npm run build && node server.js",
-    "start": "webpack-dev-server --progress --profile --colors",
+    "postinstall": "npm run build",
+    "build": "webpack --config webpack.production.config.js",
+    "start": "node server.js",
+    "start:dev": "webpack-dev-server --progress --profile --colors",
     "lint": "eslint --ext js --ext jsx src || exit 0",
     "dev": " webpack-dashboard -- webpack-dev-server",
     "test": "export NODE_ENV=test && jest"
