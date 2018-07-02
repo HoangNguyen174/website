@@ -54,8 +54,6 @@ decorators.Header = ({style, node}) => {
         color: 'rgb(204,204,204)'
     };
 
-    console.log(style);
-
     let newTitleStyle = {
         lineHeight : "24px",
         verticalAlign : "middle",
