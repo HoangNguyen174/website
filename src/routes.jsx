@@ -9,7 +9,7 @@ import Sample from './components/Sample';
 
 const Routes = () => (
   <Router>
-    <div>
+    <div className="routes">
       <Route exact path="/" component={App}/>
       <Route path="/about" component={About}/>
       <Route path="/sample" component={Sample}/>
