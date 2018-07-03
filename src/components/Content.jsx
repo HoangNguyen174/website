@@ -93,9 +93,7 @@ class Content extends React.Component {
                                 <div> {currentProject.tech}</div>
                             </div>
                             { currentProject.demoLink && 
-                                <div className="demo-link">
-                                    <a onClick={this.goToLink}> {currentProject.demoLink} </a>
-                                </div>
+                                <iframe src={currentProject.demoLink}></iframe>
                             }
                         </div>
                     }
