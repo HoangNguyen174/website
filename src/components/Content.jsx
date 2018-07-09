@@ -37,13 +37,12 @@ class Content extends React.Component {
           //Inner loop to create children
           for (let j = 0; j < column; j++) {
             let index = j + i * 2;
-            console.log(index);
             children.push(<td> <img src={images[index]}/> </td>);
           }
           //Create the parent and add the children
           table.push(<tr>{children}</tr>);
         }
-        return table;
+    return (<table>{table}</table>);
     }
 
     render(){
@@ -97,9 +96,7 @@ class Content extends React.Component {
                             }
                         </div>
                     }
-                    <table>
-                        { this.createImagesTable() }
-                    </table>
+                    { this.createImagesTable() }
                     { currentProject.videoId &&
                         <div className="demo-video">
                                 <YouTube

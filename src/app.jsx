@@ -19,7 +19,6 @@ class App extends React.Component {
   }
 
   getNodeItem(node) {
-    console.log(node);
     this.setState({ currentNodeItem: node });
   }
 

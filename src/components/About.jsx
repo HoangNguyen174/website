@@ -27,7 +27,7 @@ class About extends React.Component {
               Email: hnguyen.programmer@gmail.com
             </li>
             <li>
-              LinkedIn: <i class="fab fa-linkedin" onClick={this.goToLink}></i>
+              LinkedIn: <i className="fab fa-linkedin" onClick={this.goToLink}></i>
             </li>
           </ul>
         </div>
@@ -75,7 +75,7 @@ class About extends React.Component {
         <div className="resume-title-2">
           Texas A&M University of Corpus Christi, TX (August 2008 - July 2013)
         </div>
-        <div class="resume-list">
+        <div className="resume-list">
           <ul>
               <li>
                 Bachelor of Science: Double Major in Computer Science and Mathematics

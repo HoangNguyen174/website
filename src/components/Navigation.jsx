@@ -104,7 +104,6 @@ class Navigation extends React.Component {
   }
 
   onToggle(node, toggled){
-      console.log(node);
       if(this.state.cursor){this.state.cursor.active = false;}
       node.active = true;
       if(node.children){ node.toggled = toggled; }
