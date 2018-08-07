@@ -88,7 +88,7 @@ class About extends React.Component {
         <div className="resume-list">
           <ul>
               <li>
-                Programming/Scripting Languages: <span> C++ - JavaScript - TypeScript - CoffeScript - HTML5/CSS </span>
+                Programming/Scripting Languages: <span> C++ - JavaScript - TypeScript - CoffeScript - HTML5/CSS3 </span>
               </li>
               <li>
                 Front-end APIs: <span> Angular 1.x/2.x - Backbone.js - React - jQuery - Electron </span>
@@ -100,7 +100,7 @@ class About extends React.Component {
                 Back-end APIs: <span> Node - Express - MySQL - ORM </span>
               </li>
               <li>
-                Tools: <span> Perforce - GIT - Gulp - Webpack - Handlebars - Immutable.js - Lodash - Underscore - Nightmare.js - Less/Sass </span>
+                Tools: <span> Perforce - GIT - Grunt - Gulp - Webpack - Handlebars - Immutable.js - Lodash - Underscore - Nightmare.js - Less/Sass </span>
               </li>
               <li>
                 Programming Skills:  <span> Engine Programming - Tool Programming - Front-end Programming - Graphics Programming - AI Programming </span>
