@@ -33,7 +33,7 @@ const data = [
         tech: "Javascript - WebGL - GLSL",
         features: "Defered Rendering - SSAO - 3D Model",
         demoLink: "https://deferred-rendering.herokuapp.com",
-        repo: "https://github.com/HoangNguyen174/Agni",        
+        repo: "https://github.com/HoangNguyen174/Agni", 
         images: [ Beast1, Beast2, Beast3, Beast4, Beast5, Beast6 ]             
     },
     {

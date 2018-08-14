@@ -35,6 +35,25 @@ class About extends React.Component {
           Work Experience
         </div>
         <div className="resume-title-2">
+          Software Developer - Tan Thuy Hoang Inc - Ho Chi Minh City, Vietnam (Aug 2012 - current)
+        </div>
+        <div className="resume-list">
+          <ul>
+            <li>
+              Implementing tools using front-end web frameworks: React-redux, React-native, MongoDB, Node and Electron
+            </li>
+            <li>
+              Managing company's website and database
+            </li>
+            <li>
+              Assisting technical director in communicating and working with foriegn contractors
+            </li>
+            <li>
+              Managing and distributing tasks for other developers in team using JIRA
+            </li>
+          </ul>
+        </div>
+        <div className="resume-title-2">
           Full-Stack Developer - Nerd Kingdom Inc - Irving, Dallas (May 2016 - Dec 2017)
         </div>
         <div className="resume-list">
