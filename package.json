@@ -26,7 +26,9 @@
     "react-dom": "^16.2.0",
     "react-pdf": "^3.0.5",
     "react-treebeard": "^2.1.0",
-    "react-youtube": "^7.6.0"
+    "react-youtube": "^7.6.0",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
