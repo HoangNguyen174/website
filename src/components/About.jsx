@@ -35,6 +35,19 @@ class About extends React.Component {
           Work Experience
         </div>
         <div className="resume-title-2">
+          Software Engineer - Flywheel Building Intelligence, Inc (Sep 2018 - current)
+        </div>
+        <div className="resume-list">
+          <ul>
+            <li>
+              Developing native mobile applications, web portals, and intergration services using React Native, React and Node
+            </li>
+            <li> 
+              Participating in design, development and deployment transition of APIs and microservices for existing mobile and web app
+            </li>
+          </ul>
+        </div>
+        <div className="resume-title-2">
           Software Developer - Tan Thuy Hoang Inc - Ho Chi Minh City, Vietnam (Aug 2012 - current)
         </div>
         <div className="resume-list">
