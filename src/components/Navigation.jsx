@@ -10,7 +10,9 @@ const data = {
             name: "About Me",
             toggled: true,
             children: [
-                { name: 'Resume.pdf' }
+                { 
+                  name: 'Resume.pdf'
+                },
             ]
         },
         {
@@ -103,8 +105,20 @@ class Navigation extends React.Component {
       this.onToggle = this.onToggle.bind(this);
   }
 
+  componentDidMount() {
+    this.onToggle({name: 'Resume.pdf'});
+  }
+
   onToggle(node, toggled){
-      if(this.state.cursor){this.state.cursor.active = false;}
+      if(this.state.cursor) { 
+        //this.state.cursor.active = false;
+        this.setState({ 
+          cursor : { 
+            active: false,
+            name: this.state.cursor.name,
+          }
+        });
+      }
       node.active = true;
       if(node.children){ node.toggled = toggled; }
       this.setState({ cursor: node });

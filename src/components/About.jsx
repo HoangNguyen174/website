@@ -35,7 +35,26 @@ class About extends React.Component {
           Work Experience
         </div>
         <div className="resume-title-2">
-          Software Engineer - Flywheel Building Intelligence, Inc (Sep 2018 - current)
+          JavaScript Engineer - H&P Technologies (Jan 2019 - current)
+        </div>
+        <div className="resume-list">
+          <ul>
+            <li>
+              Architecting and implementing Microservices frontends and backends using Vuejs, Express, GraphQL with Apollo server/client
+            </li>
+            <li>
+              Migrating legacy Angular 1.7 frontend application to component architecture using Vue framework
+            </li>
+            <li>
+              Participating in designing and deploying cd/ci pipelines using Jenkins, Docker, Artifactory
+            </li>
+            <li>
+              Maintaining and supporting existing Angular frontend web applications in production
+            </li>
+          </ul>
+        </div>
+        <div className="resume-title-2">
+          Software Engineer - Flywheel Building Intelligence, Inc (Sep 2018 - Jan 2019)
         </div>
         <div className="resume-list">
           <ul>
@@ -92,29 +111,6 @@ class About extends React.Component {
           </ul>
         </div>
         <div className="resume-title-1">
-          Education
-        </div>
-        <div className="resume-title-2">
-          SMU Guildhall, TX (January 2014 - December 2015)
-        </div>
-        <div className="resume-list">
-          <ul>
-              <li>
-                Master of Interactice Technology, Digital Game Development
-              </li>
-          </ul>
-        </div>
-        <div className="resume-title-2">
-          Texas A&M University of Corpus Christi, TX (August 2008 - July 2013)
-        </div>
-        <div className="resume-list">
-          <ul>
-              <li>
-                Bachelor of Science: Double Major in Computer Science and Mathematics
-              </li>
-          </ul>
-        </div>
-        <div className="resume-title-1">
           Technical Skills
         </div>
         <div className="resume-list">
@@ -139,6 +135,29 @@ class About extends React.Component {
               </li>
               <li>
                 Engine Experience: <span> Unreal Engine 4 - Unity 2D </span>
+              </li>
+          </ul>
+        </div>
+        <div className="resume-title-1">
+          Education
+        </div>
+        <div className="resume-title-2">
+          SMU Guildhall, TX (January 2014 - December 2015)
+        </div>
+        <div className="resume-list">
+          <ul>
+              <li>
+                Master of Interactice Technology, Digital Game Development
+              </li>
+          </ul>
+        </div>
+        <div className="resume-title-2">
+          Texas A&M University of Corpus Christi, TX (August 2008 - July 2013)
+        </div>
+        <div className="resume-list">
+          <ul>
+              <li>
+                Bachelor of Science: Double Major in Computer Science and Mathematics
               </li>
           </ul>
         </div>
