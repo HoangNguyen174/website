@@ -31,7 +31,6 @@ build/Release
 node_modules
 
 # Ignore build files
-public
 .idea
 
  # Ignore yarn.lock for heroku deploy
