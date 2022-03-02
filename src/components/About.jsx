@@ -29,7 +29,17 @@ class About extends React.Component {
           Work Experience
         </div>
         <div className="resume-title-2">
-          JavaScript Engineer - H&P Technologies (Jan 2019 - current)
+          Senior Software Engineer - Capital Markets Gateway (May 2021 - current)
+        </div>
+        <div className="resume-list">
+          <ul>
+            <li>
+              To Be Updated
+            </li>
+          </ul>
+        </div>
+        <div className="resume-title-2">
+          JavaScript Engineer - Project Lead - H&P Technologies (Jan 2019 - May 2021)
         </div>
         <div className="resume-list">
           <ul>
