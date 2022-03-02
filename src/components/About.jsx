@@ -21,12 +21,6 @@ class About extends React.Component {
         <div className="resume-list">
           <ul>
             <li>
-              Phone: 469-616-5428
-            </li>
-            <li>
-              Email: hnguyen.programmer@gmail.com
-            </li>
-            <li>
               LinkedIn: <i className="fab fa-linkedin" onClick={this.goToLink}></i>
             </li>
           </ul>
