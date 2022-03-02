@@ -72,7 +72,7 @@
     "webpack": "^3.10.0",
     "webpack-cleanup-plugin": "^0.5.1",
     "webpack-dashboard": "^1.0.2",
-    "webpack-dev-server": "^2.9.4"
+    "webpack-dev-server": "^3.1.11"
   },
   "jest": {
     "verbose": true,
