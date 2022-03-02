@@ -3,6 +3,9 @@
   "version": "0.0.4",
   "description": "React Webpack Babel Starter Kit",
   "main": "''",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "postinstall": "npm run build",
     "build": "webpack --config webpack.production.config.js",
